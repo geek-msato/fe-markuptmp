@@ -1,0 +1,41 @@
+{
+  "name": "fe-markuptmp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geek-msato/fe-markuptmp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geek-msato/fe-markuptmp/issues"
+  },
+  "homepage": "https://github.com/geek-msato/fe-markuptmp#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "browser-sync": "^2.27.10",
+    "css-declaration-sorter": "^6.3.0",
+    "css-mqpacker": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-mode": "^1.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-uglify": "^3.0.2",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.1",
+    "imagemin-svgo": "^8.0.0",
+    "postcss": "^8.4.16",
+    "sass": "^1.54.5"
+  },
+  "dependencies": {
+    "gulp-sass": "^5.1.0"
+  }
+}
