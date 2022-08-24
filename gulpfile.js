@@ -120,3 +120,6 @@ exports.default = gulp.series(
   gulp.parallel(compileSass, compileJs, imageMin),
   gulp.parallel(buildServer, watchFiles)
 );
+exports.build = gulp.series(
+  gulp.parallel(compileSass, compileJs, imageMin),
+);
